@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    overflow-y: scroll;
+    background-color: #C1EFFF;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+h3.stolb{
+    margin: 5px;
+}
+div.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+
+}
+button.btn{
+    height: 30pt;
+    width: 100pt;
+}
+.input_add{
+    width: 300pt;
+    height: 20pt;
+    margin: 0;
+
+}
+p{
+    margin: 0;
+    font-weight: bold;
+}
+p.btn_p{
+    size: 20pt;
+}
+.btn{
+    border-radius: 20pt/20pt;
+    border-color: aqua;
+}
+.header{
+    background-color: #C1EFFF;
+    width: 100%; 
+    height: 1000px;; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    
+}
+.nav{
+    display: block;
+    position: fixed;
+    height: 47px;
+    width: 100%;
+    z-index: 9999;
+    background-color: #E8F9FD;
+  
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+} 
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+} 
+li a:hover{
+    background-color: #F1F1F1;
+    text-decoration: underline;
+}
+.active {
+    padding-right: 10pt;
+}
+div.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+h1.smen_nazv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50pt;
+    margin-bottom: 1%;
+}
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: #E8F9FD;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+.form_glav_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_reg{
+    width: 300pt;
+    height: 20pt;
+    border-radius: 20pt/20pt;
+    border-color: aqua;
+}
+.form_reg_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+img.cheliki{
+    width: 30pt;
+    margin-right: 1%;
+}
+img.account{
+    width: 30pt;
+    margin-right: 1%;
+}
+div.account{
+    margin: 0;
+    margin-top: 200pt;
+}
+.coffee{
+    width: 25pt;
+    margin: 0;
+
+}
+.browser{
+    width: 30pt;
+    margin-left: 10pt;
+}
+.msg{
+    border: 2px solid #ca0d0d;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+p.del{
+    color: #ca0d0d;
+    text-decoration: none;
+}
+a.redact{
+    color: rgb(21, 41, 214);
+}
+.glav_str{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.div_del{
+    margin-top: 10pt;
+    width: 7%;
+}
+.div_redact{
+    margin-top: 10pt;
+    width: 20%;
+}
+.users{
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+    margin-left: 10pt;
+    box-shadow: 0 4px 10px 0 #2f4090;
+    max-width: 200px;
+    max-height: 500px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.korzina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.add-to-cart{
+    margin: 5pt;
+    cursor: pointer;
+}
+.add-to-cart:hover {
+    background: #6b65df;
+}
+.add-to-cart:active {
+    background: #062df1;
+}
+a{
+    text-decoration: none;
+}
+.product{
+    box-shadow: 0 4px 8px 0 #35849a;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.product_img{
+    margin: 10pt;
+    width: 200px;
+    box-shadow: 5px 4px 8px 2px #53afc9;
+}
+img.img_account{
+    width: 300px;
+    margin-top: 5pt;
+}
+.info_acc{
+    margin: 5pt;
+}
+h2.info_prod{
+    display: flex; 
+    justify-content: left;
+    margin-left: 10pt;
+    margin-bottom: 5pt;
+}
